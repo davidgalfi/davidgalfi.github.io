@@ -1,0 +1,389 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Galfi - Software Engineer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+    <script src="js/app.js"></script>
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-dot"></div>
+
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="floating-shapes">
+            <div class="shape"></div>
+            <div class="shape"></div>
+            <div class="shape"></div>
+        </div>
+    </div>
+    
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="logo">DAVID GALFI</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <p class="hero-subtitle">Software Engineer & Problem Solver</p>
+            <h1 class="hero-title">
+                <span class="word">BUILDING</span>
+                <span class="word">DIGITAL</span>
+                <span class="word">SOLUTIONS</span>
+            </h1>
+            <p class="hero-description">
+                Passionate about creating innovative software solutions with Python, Java, and modern technologies.
+            </p>
+            <div class="hero-buttons">
+                <a href="#experience" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Let's Connect</a>
+            </div>
+        </div>
+        <div class="scroll-indicator"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2 class="section-title scroll-animate">About Me</h2>
+        <div class="about-grid">
+            <div class="about-text scroll-animate">
+                <h3>Software Engineer</h3>
+                <p>
+                    I've been passionate about programming and science since receiving my first "Python for Kids" book as a child. This early spark led me through a programming-focused high school and a BSc in Computer Science and Mathematics at the University of Szeged.
+                </p>
+                <p>
+                    I approach every challenge with a careful, science-based methodology, ensuring thoughtful and effective solutions. My experience spans from mathematical modeling and agent-based simulations to full-stack development with modern frameworks.
+                </p>
+                <div class="stats">
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="3">0</span>
+                        <span class="stat-label">Years of Projects Experience</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="6">0</span>
+                        <span class="stat-label">Certifications</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="12">0</span>
+                        <span class="stat-label">Projects</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-visual scroll-animate">
+                <div class="morphing-card">
+                    <img src="img/profile_picture.jpg" alt="Profile Picture">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="skills-container">
+            <h2 class="section-title scroll-animate">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-card scroll-animate">
+                    <div class="skill-icon">☕</div>
+                    <h3 class="skill-name">Java Development</h3>
+                    <p class="skill-description">Spring Boot, Maven, OOP principles, and enterprise application development</p>
+                </div>
+                <div class="skill-card scroll-animate">
+                    <div class="skill-icon">🐍</div>
+                    <h3 class="skill-name">Python & Data Science</h3>
+                    <p class="skill-description">Flask, data analysis, machine learning, and mathematical modeling</p>
+                </div>
+                <div class="skill-card scroll-animate">
+                    <div class="skill-icon">🗄️</div>
+                    <h3 class="skill-name">Database Systems</h3>
+                    <p class="skill-description">PostgreSQL, MySQL, database design and optimization</p>
+                </div>
+                <div class="skill-card scroll-animate">
+                    <div class="skill-icon">🔧</div>
+                    <h3 class="skill-name">Development Tools</h3>
+                    <p class="skill-description">Git, REST APIs, Agile methodologies, and system optimization</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="experience-container">
+            <h2 class="section-title scroll-animate">Experience & Education</h2>
+            <div class="timeline">
+                <div class="timeline-item scroll-animate" data-aos="fade-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">June 2023 - June 2024</div>
+                        <h3 class="timeline-title">Associate Software Engineer</h3>
+                        <h4 class="timeline-company">Bolyai Institute, Hungary</h4>
+                        <p class="timeline-description">Developed a drug effect analysis system using agent-based modeling principles to simulate viral infection treatments. Enhanced performance by optimizing algorithms and data structures using Spring Boot architecture.</p>
+                        <div class="timeline-skills">
+                            <span class="timeline-skill">Java</span>
+                            <span class="timeline-skill">Spring Boot</span>
+                            <span class="timeline-skill">Maven</span>
+                            <span class="timeline-skill">Mathematical Modeling</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item scroll-animate" data-aos="fade-up" data-aos-delay="200">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">September 2021 - June 2024</div>
+                        <h3 class="timeline-title">BSc Computer Science and Mathematics</h3>
+                        <h4 class="timeline-company">University of Szeged</h4>
+                        <p class="timeline-description">Completed comprehensive studies combining computer science with advanced mathematics. Developed strong analytical thinking and problem-solving skills through rigorous coursework.</p>
+                        <div class="timeline-skills">
+                            <span class="timeline-skill">Algorithms</span>
+                            <span class="timeline-skill">Data Structures</span>
+                            <span class="timeline-skill">Mathematical Analysis</span>
+                            <span class="timeline-skill">Software Engineering</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item scroll-animate" data-aos="fade-up" data-aos-delay="400">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">September 2017 - June 2021</div>
+                        <h3 class="timeline-title">Network Maintenance Technician Certificate</h3>
+                        <h4 class="timeline-company">Rudas Vocational High School</h4>
+                        <p class="timeline-description">Focused on programming and mathematics, building a strong foundation in technical skills and logical thinking that sparked my passion for software development.</p>
+                        <div class="timeline-skills">
+                            <span class="timeline-skill">Network Systems</span>
+                            <span class="timeline-skill">Programming Fundamentals</span>
+                            <span class="timeline-skill">Mathematics</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="projects-container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="data">Data Science</button>
+                <button class="filter-btn" data-filter="java">Java Applications</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-category="java" data-aos="zoom-in">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/davidgalfi" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Drug Effect Analysis System</h3>
+                        <p class="project-description">Agent-based modeling system for simulating viral infection treatments using Spring Boot architecture with optimized algorithms.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Spring Boot</span>
+                            <span class="tech-tag">Maven</span>
+                            <span class="tech-tag">Mathematical Modeling</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="web" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/davidgalfi" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Algorithm and Data Structure Reference Hub</h3>
+                        <p class="project-description">A comprehensive web application for developers to quickly reference data structures and algorithms with implementations in multiple programming languages.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML/CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Flask</span>
+                            <span class="tech-tag">Responsive Design</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="data" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/davidgalfi" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">MultiField Learning Hub</h3>
+                        <p class="project-description">An animated, multi-theme blog platform for diverse learning content - from language learning to coding tutorials and vegan recipes</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML/CSS</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Flask</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="java" data-aos="zoom-in" data-aos-delay="600">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/davidgalfi" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">University Management System</h3>
+                        <p class="project-description">Comprehensive Java application for managing student records, courses, and academic data with PostgreSQL database integration.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">JDBC</span>
+                            <span class="tech-tag">Database Design</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Work Together</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <div class="icon-wrapper">
+                                <div class="icon-bg"></div>
+                                📧
+                            </div>
+                        </div>
+                        <h3>Email Me</h3>
+                        <p>galfidavid314@gmail.com</p>
+                        <div class="hover-effect"></div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <div class="icon-wrapper">
+                                <div class="icon-bg"></div>
+                                📱
+                            </div>
+                        </div>
+                        <h3>Call Me</h3>
+                        <p>+45 71 81 85 92</p>
+                        <div class="hover-effect"></div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <div class="icon-wrapper">
+                                <div class="icon-bg"></div>
+                                📍
+                            </div>
+                        </div>
+                        <h3>Location</h3>
+                        <p>Odense, Denmark</p>
+                        <div class="hover-effect"></div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/davidgalfi" target="_blank" class="social-link">
+                            <div class="social-bg"></div>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://linkedin.com/in/galfidavidzsolt" target="_blank" class="social-link">
+                            <div class="social-bg"></div>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="#" class="social-link">
+                            <div class="social-bg"></div>
+                            <span>Portfolio</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" required>
+                            <label for="name">Your Name</label>
+                            <div class="form-line"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" required>
+                            <label for="email">Your Email</label>
+                            <div class="form-line"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" required>
+                            <label for="subject">Subject</label>
+                            <div class="form-line"></div>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" required></textarea>
+                            <label for="message">Your Message</label>
+                            <div class="form-line"></div>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <span class="btn-content">
+                                <span class="btn-text">Send Message</span>
+                                <div class="btn-loader">
+                                    <div class="loader-ring"></div>
+                                    <div class="loader-ring"></div>
+                                    <div class="loader-ring"></div>
+                                </div>
+                            </span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Particle Canvas -->
+    <canvas id="particleCanvas"></canvas>
+    <!-- Add smooth scrolling CSS -->
+
+</body>
+</html>

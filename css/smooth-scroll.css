@@ -1,0 +1,89 @@
+/* smooth-scroll.css */
+/* Scroll Progress Bar */
+.scroll-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+    transform: scaleX(0);
+    transform-origin: left;
+    z-index: 9999;
+    transition: transform 0.1s ease-out;
+}
+
+/* Parallax container */
+[data-parallax] {
+    will-change: transform;
+}
+
+/* Smooth section transitions */
+.smooth-scroll-active section {
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.smooth-scroll-active section:not(.in-view) {
+    opacity: 0.7;
+    transform: translateY(20px);
+}
+
+.smooth-scroll-active section.in-view {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Enhanced floating shapes */
+.smooth-scroll-active .shape {
+    will-change: transform;
+    transition: opacity 0.3s ease;
+}
+
+/* Performance optimizations */
+.smooth-scroll-active .cursor,
+.smooth-scroll-active .cursor-dot {
+    will-change: transform;
+}
+
+.smooth-scroll-active #particleCanvas {
+    will-change: transform;
+}
+
+/* Smooth scroll container */
+.smooth-scroll-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    will-change: transform;
+    z-index: 1;
+}
+
+/* Body adjustments when smooth scroll is active */
+.smooth-scroll-active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Scroll indicator improvements */
+.scroll-indicator {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.scroll-indicator.hidden {
+    opacity: 0;
+}
+
+/* Loading transition */
+.smooth-scroll-loading {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.smooth-scroll-loaded {
+    opacity: 1;
+}
